@@ -1,8 +1,9 @@
 import Item from "./Item";
 
-function FootItems({ items }) {
 
- 
+
+
+function FootItems({ items }) {
 
   return(
   <ul className="list-group">

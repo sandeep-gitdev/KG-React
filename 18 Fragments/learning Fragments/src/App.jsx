@@ -7,8 +7,8 @@ import FootItems from './components/FoodItems';
 
 function App() {
    
-      let foodItems = [];
-  //  let foodItems = ["paneer","Green vegtable","Roti","Salad","Milk",]
+   //   let foodItems = [];
+   let foodItems = ["paneer","Green vegtable","Roti","Salad","Milk",]
 
 
     //      if else operator rendering
@@ -52,7 +52,7 @@ function App() {
         </ul>  */}
          
                  {/* Props */}
-               <h1>Healthy Food</h1>
+               <h1 className='food-heading'>Healthy Food</h1>
           <ErrorMsg items={foodItems} ></ErrorMsg>
           <FootItems items={foodItems} ></FootItems>
     </>
